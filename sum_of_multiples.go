@@ -35,7 +35,7 @@ func SumMultiples(limit int, divisors ...int) (sum int) {
 func main() {
 
 	twenty := SumMultiples(20, 3, 5)
-	if twenty != 77 {
+	if twenty != 78 {
 		panic("20 -> 78")
 	}
 }
